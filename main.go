@@ -57,7 +57,7 @@ func usdToRub(usd float64) (float64, error) {
 }
 
 func main() {
-	bot, err := tgbotapi.NewBotAPI("1756336476:AAG7Mput2bvFyG--iy1_Z3SUE_SJGn1IXdo")
+	bot, err := tgbotapi.NewBotAPI("token")
 	if err != nil {
 		log.Panic(err)
 	}
